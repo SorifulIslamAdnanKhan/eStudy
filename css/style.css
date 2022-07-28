@@ -17,22 +17,26 @@ body {
 
 
 /* Responsive Styles */
- /* Slider */
  @media (max-width: 576px) {
+    /* Slider */
+    .carousel-text {
+            top: 0;
+        }
+     /* Course */
     .single-course{
         max-width: 100%;
     }
-     .carousel-text{
-        top:0;
-     }
+    /* Partner */
     .partner {
         display: none;
     }
  }
  @media (min-width: 577px) and (max-width:992px){
+    /* Course */
      .single-course {
          max-width: 100%;
      }
+    /* Partner */
      .partner{
         display: none;
      }
