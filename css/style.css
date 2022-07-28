@@ -5,3 +5,29 @@
 body {
     font-family: 'Crimson Text', serif;
 }
+
+/* Single Course */
+.single-course{
+    max-width: 49%;
+    margin-right: 8px;
+}
+.single-course-card{
+    align-items: center;
+}
+
+
+/* Responsive Styles */
+ /* Slider */
+ @media (max-width: 576px) {
+    .single-course{
+        max-width: 100%;
+    }
+     .carousel-text{
+        top:0;
+     }
+ }
+ @media (min-width: 577px) and (max-width:992px){
+     .single-course {
+         max-width: 100%;
+     }
+ }
