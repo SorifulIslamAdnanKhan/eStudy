@@ -1,0 +1,7 @@
+/* Imported Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+/* Common Styles */
+body {
+    font-family: 'Crimson Text', serif;
+}
